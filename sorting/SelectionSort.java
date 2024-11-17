@@ -2,26 +2,26 @@
 // and swap it with the current element and we keep doing that till 
 // we get teh sorted array
 
-package sorting;
+import java.util.Set;
 
 /**
  * SelectionSort
  */
-public class SelectionSort implements Sort{
+public class SelectionSort {
 
-    // public static void main(String[] args) {
-    //     int[] arr = {2, 3, 6, 2, 1, 4};
-    //     sort(arr);
-    //     printArray(arr);
-    // }
-    @Override
-    public void sort(int[] arr) {
+    public static void main(String[] args) {
+        int[] arr = { 2, 3, 6, 2, 1, 4 };
+        sort(arr);
+        printArray(arr);
+    }
+
+    public static void sort(int[] arr) {
         for (int i = 0; i < arr.length; i++) {
             // assuming min index i
             int min_idx = i;
 
-            for (int j = i+1; j < arr.length; j++) {
-                if(arr[j] < arr[min_idx]) {
+            for (int j = i + 1; j < arr.length; j++) {
+                if (arr[j] < arr[min_idx]) {
                     min_idx = j;
                 }
             }
@@ -32,8 +32,7 @@ public class SelectionSort implements Sort{
         }
     }
 
-    @Override
-    public void printArray(int[] arr) {
+    public static void printArray(int[] arr) {
         for (int i = 0; i < arr.length; i++) {
             System.out.println(arr[i]);
         }
