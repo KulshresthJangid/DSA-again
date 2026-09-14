@@ -13,7 +13,7 @@ should run each problem (hints only, brute force → optimize, branch → PR in
 
 | Total Solved | Easy | Medium | Hard |
 |---|---|---|---|
-| 0 / 75 | 0 / 23 | 0 / 43 | 0 / 9 |
+| 1 / 75 | 1 / 23 | 0 / 43 | 0 / 9 |
 
 ---
 
@@ -46,7 +46,7 @@ should run each problem (hints only, brute force → optimize, branch → PR in
 ### Arrays
 | # | Problem | LeetCode | Difficulty | Status |
 |---|---|---|---|---|
-| 1 | [[1. Two Sum\|Two Sum]] | [LC 1](https://leetcode.com/problems/two-sum/) | Easy | |
+| 1 | [[1. Two Sum\|Two Sum]] | [LC 1](https://leetcode.com/problems/two-sum/) | Easy | ✅ |
 | 2 | [[2. Best Time to Buy and Sell Stock\|Best Time to Buy & Sell Stock]] | [LC 121](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | Easy | |
 | 3 | [[3. Contains Duplicate\|Contains Duplicate]] | [LC 217](https://leetcode.com/problems/contains-duplicate/) | Easy | |
 | 4 | [[4. Product of Array Except Self\|Product of Array Except Self]] | [LC 238](https://leetcode.com/problems/product-of-array-except-self/) | Medium | |
