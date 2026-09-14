@@ -2,6 +2,11 @@
 
 > One file to rule them all. Log every problem here, then link to the note.
 
+See [`LEARNING_GUIDE.md`](LEARNING_GUIDE.md) for the stage-by-stage order to
+work through this list, and [`AGENTS.md`](AGENTS.md) for how the AI coach
+should run each problem (hints only, brute force → optimize, branch → PR in
+`playground/`).
+
 ---
 
 ## Stats

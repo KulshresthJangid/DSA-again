@@ -1,0 +1,21 @@
+package dsa.{{category}}.{{problemPackage}};
+
+/**
+ * {{problemTitle}} — Brute Force
+ *
+ * LeetCode: {{leetcodeUrl}}
+ * Note:     {{noteLink}}
+ *
+ * Approach:
+ *   TODO — one or two lines, written by the human after they explain their own idea out loud.
+ *
+ * Time:  O(?)
+ * Space: O(?)
+ */
+public class BruteForce {
+
+    public static /* returnType */ Object solve(/* params */) {
+        // TODO: implemented by the human, hint-by-hint. The agent does not write this body.
+        throw new UnsupportedOperationException("not implemented yet");
+    }
+}

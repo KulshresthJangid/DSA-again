@@ -1,0 +1,21 @@
+# {{NN}}. {{problemTitle}}
+
+- Note: `{{noteLink}}`
+- LeetCode: {{leetcodeUrl}}
+- Pattern: {{pattern}}
+- Difficulty: {{difficulty}}
+- Branch: `problem/{{NN}}-{{slug}}`
+
+## Brute Force
+- Idea:
+- Time:
+- Space:
+
+## Optimized
+- Idea:
+- Time:
+- Space:
+
+## What clicked
+One or two sentences, in your own words, on the insight that unlocked the optimization.
+Written by the human before the PR is opened — this is the part that actually cements the pattern.

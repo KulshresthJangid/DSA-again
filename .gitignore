@@ -1,0 +1,8 @@
+# Maven
+playground/target/
+*.class
+
+# OS / editor
+.DS_Store
+.idea/
+*.iml

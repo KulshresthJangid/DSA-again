@@ -1,0 +1,21 @@
+package dsa.{{category}}.{{problemPackage}};
+
+/**
+ * {{problemTitle}} — Optimized
+ *
+ * LeetCode: {{leetcodeUrl}}
+ * Note:     {{noteLink}}
+ *
+ * Why it's faster than BruteForce:
+ *   TODO — one or two lines, written by the human after the optimization discussion.
+ *
+ * Time:  O(?)
+ * Space: O(?)
+ */
+public class Optimized {
+
+    public static /* returnType */ Object solve(/* params */) {
+        // TODO: implemented by the human, hint-by-hint, only after BruteForce passes all tests.
+        throw new UnsupportedOperationException("not implemented yet");
+    }
+}

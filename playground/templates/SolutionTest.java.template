@@ -1,0 +1,28 @@
+package dsa.{{category}}.{{problemPackage}};
+
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.MethodSource;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+/**
+ * Tests run against BOTH BruteForce and Optimized so switching implementations
+ * never silently loses coverage. Write the given example(s) first, then add
+ * edge cases (empty input, single element, all-same, negatives, max size, etc.)
+ * BEFORE writing any solution code.
+ */
+class {{ProblemClassName}}Test {
+
+    @Test
+    void bruteForce_givenExample() {
+        // TODO assertEquals(expected, BruteForce.solve(...));
+    }
+
+    @Test
+    void optimized_givenExample() {
+        // TODO assertEquals(expected, Optimized.solve(...));
+    }
+
+    // TODO: edge cases — mirror each one for both BruteForce and Optimized.
+}
