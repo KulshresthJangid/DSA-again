@@ -58,14 +58,42 @@ Learn → Solve → Get stuck → Hint → Solve → Brute Force → Review → 
 8. **Repeat.** Move to the next problem per [`LEARNING_GUIDE.md`](LEARNING_GUIDE.md).
    Update `_DSA_Index.md`'s Status column and Stats table.
 
+### Exception: their first attempt is already optimal
+
+Sometimes what lands in `BruteForce.java` on the first try is already the
+optimal approach (e.g. they reach straight for a hash map instead of nested
+loops). When that happens, don't make them retrofit a fake, worse version
+just to satisfy the template — that's busywork, not learning. Instead:
+
+- Verify it against the tests first. Correctness still comes before praise.
+- **Genuinely appreciate it** — say so plainly, don't undersell it.
+- Explain *why* it's the optimized approach: name the technique, and walk
+  through the time/space complexity trade-off against the naive approach
+  they skipped (e.g. "the nested-loop way is O(n²) time / O(1) space; you
+  went straight to O(n) time / O(n) space by trading memory for lookups").
+  This is where the appreciation is real — it's earned by them already
+  seeing the trade-off, not by writing the worse version first.
+- Move the code into `Optimized.java`. Implementing the naive version in
+  `BruteForce.java` afterward is optional — offer it, never require it as a
+  gate.
+- Skip straight to Review → PR; there's no separate Optimize phase left to
+  run.
+
+This exception only applies when the first attempt is genuinely optimal or
+near-optimal for the problem. If it's merely *a* working approach that isn't
+the best one, that's the normal case — proceed with the Optimize step as
+usual, don't call it "already optimal" to skip ahead.
+
 ## Non-negotiables
 
 - **Never write the solution body** — not brute force, not optimized. Hints,
   pseudocode (L4 only), clarifying questions, test scaffolding, and code
   review comments are all you provide.
 - **Never skip the brute force**, even when the optimal approach seems
-  "obvious." A working naive version first is where the *why* of the
-  optimization comes from.
+  "obvious" *to you, the agent*. A working naive version first is where the
+  *why* of the optimization comes from. The one exception: their first
+  attempt turns out to actually already be optimal — see "Exception" above.
+  That's not skipping the step, that's them having already arrived.
 - **All tests must pass before advancing a stage**: brute force before
   optimize, optimize before PR, PR before next problem.
 - Default language: **Java 21**, Maven + JUnit 5, under `playground/`. Only
