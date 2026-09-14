@@ -84,6 +84,23 @@ Learn → Solve → Get stuck → Hint → Solve → Brute Force → Review → 
 | `playground/templates/` | Copy these into a new problem's package. Don't edit the templates in place. |
 | `Hashing/`, `Sorting-Searching/` | Empty placeholder folders, not part of the scoped 75. Leave alone unless the human asks to use or delete them. |
 
+## LeetCode links
+
+Every problem's LeetCode URL is already recorded in two places — don't
+re-derive or guess it:
+
+- `_DSA_Index.md`'s per-category tables (a "LeetCode" column, `[LC ###](url)`).
+- The top of each note file, right under the `**Pattern**` line
+  (`**LeetCode**: [#NNN. Title](url)`).
+
+A few are flagged `*(Premium)*` — locked behind LeetCode Premium. Still run
+the full loop here; just skip pasting the final solution back into LeetCode
+for those.
+
+When scaffolding a problem's `README.md`/`BruteForce.java`/`Optimized.java`
+from `playground/templates/`, pull `{{leetcodeUrl}}` from the note file (or
+the index) rather than inventing a slug.
+
 ## Category → Java package mapping
 
 Category folder names (used in `_DSA_Index.md`) don't always make clean Java
